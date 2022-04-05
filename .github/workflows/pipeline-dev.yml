@@ -21,8 +21,8 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: dev-cluster    # Add your cluster name here.
   GKE_ZONE: us-central1-c   # Add your cluster zone here.
-  DEPLOYMENT_NAME: gke-test # Add your deployment name here.
-  IMAGE: static-site
+  DEPLOYMENT_NAME: sample-node-gke # Add your deployment name here.
+  IMAGE: sample-node-gke-image
 
 jobs:
   setup-build-publish-deploy:
